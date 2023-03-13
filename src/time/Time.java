@@ -23,9 +23,19 @@ public class Time
 {
 	public static void main(String[] args) 
 	{
+		
+		//github code
+		int totalSeconds = getTotalSeconds("10:10:10");
+		System.out.println("Github Total Seconds = "
+		+totalSeconds);
+		/*
+		 * Jenkins
 		int totalSeconds = getTotalSeconds("10:10:10");
 		System.out.println("Total Seconds = " + totalSeconds);
-		/*try
+		*/
+		/*
+		 * Working code
+		 * try
 		{
 			
 		String time = JOptionPane.showInputDialog(null,
